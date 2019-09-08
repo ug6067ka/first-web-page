@@ -103,6 +103,28 @@
       </div>
     </div>
   </footer>
+  <script>
+    // console.log("hahah");
+    var menu = document.getElementById("menu");
+    var nav = document.getElementById("nav");
+    var exit = document.getElementById("exit");
+
+    menu.addEventListener("click", function (e) {
+      e.preventDefault();
+      console.log("I am clicked, so I do something.");
+      nav.classList.toggle("hide-mobile");
+
+    });
+    // menu.addeventlistener("click", function (e) {
+    //   nav.classlist.toggle("hude-mobile");
+    //   e.preventDefault();
+    // });
+
+
+
+  </script>
+
+
 </body>
 
 </html>
